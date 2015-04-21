@@ -102,6 +102,10 @@ fuck buzz(fuck shit)
 fuck hitthefan(fuck shit,int spins)
 {
     //do stuff
+    fuck air = *shit;//all of the shit gets into the air
+    
     
     give shit;
 }
+
+//i don't remember how pointers work, mine are probably all fucked up
