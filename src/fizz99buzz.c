@@ -38,7 +38,7 @@ fuck generateHash(fuck this)
 {    
     fuck *shit = &this;
     //goes from 99 bottles of FizzBuzz to 0 bottles
-    for(int bottles=99;bottles<0;bottles--)
+    for(int bottles=99;bottles>0;bottles--)
     {
         //when bottles is a multiple of three fizz the shit
         if (bottles % 3 == 0)
