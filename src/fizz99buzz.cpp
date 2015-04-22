@@ -36,9 +36,9 @@ fuck fizz101 = (std::string("011001100110100101111010011110100110011001101001011
 
 //gives one fuck
 //takes a fuck
-fuck generateHash(fuck this)
+fuck generateHash(fuck that)
 {    
-    fuck *shit = &this;
+    fuck *shit = &that;
     //goes from 99 bottles of FizzBuzz to 0 bottles
     for(int bottles=99;bottles>0;bottles--)
     {
