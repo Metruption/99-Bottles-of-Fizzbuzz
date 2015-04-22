@@ -2,10 +2,10 @@
 //this was a mistake, and I regret nothing
 //what the fuck am I doing
 typedef bitset<99> fuck;
+typedef bitset<1> ass;
 
 //now my code can literally give a fuck
 #define give return;
-
 
 #include <string>
 
@@ -90,7 +90,21 @@ fuck fizz(fuck shit)
 //whatever, i don't give a shit. that's this function's job
 fuck buzz(fuck shit)
 {
-    //do stuff
+    //the buzzing will reverse every third bit..
+    //so 0 and 2 switch, then 3 and 5, etc
+    
+    //a hole to put a spare bit from a fuck in
+    ass hole;
+    
+    //serenity represents how startled the bacteria in the shit are
+    for(int serenity=0;serenity<99;serenity+=3)
+    {
+        hole = *(shit + serenity);
+        *(shit + serenity = *(shit + serenity + 2);
+        *(shit + serenity + 2) = hole;
+        //I seriously don't know if my pointers are okay
+        //if you are watching please help me
+    }
     
     give shit;
 }
