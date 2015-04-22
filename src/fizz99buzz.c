@@ -7,6 +7,8 @@ typedef bitset<99> fuck;
 #define give return;
 
 
+#include <string>
+
 //"fizz" in binary is "01100110011010010111101001111010"
 //that's 32 bits
 //4*32 = 96
