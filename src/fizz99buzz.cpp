@@ -118,9 +118,33 @@ fuck buzz(fuck shit)
 fuck hitthefan(fuck shit,int spins)
 {
     //do stuff
-    fuck air = *shit;//all of the shit gets into the air
+    fuck air; //jk air i love you never stop breathing
+    fuck bitches; //now that's more like it ;)
+    
+    air = *shit; //air you aren't shitty please understand
+    bitches = &air; //bitches are full of air, bitches be full o shit
+    //air, I still love you
+    for(/*what the fuck do i put here?*/;spins>0;spins--)
+    {
+        //I'm going to figure out what a spin is
+
+        
+        
+    }
     
     
+    //then after spinning the bitches in the air I xor bitches and air and put
+    //that in shit
+    //wow these bitches' boyfriends must be worried
+    //let's get them involved
+    for(int boyfriend = 0; boyfriend<99;boyfriend++)
+    {
+        *(shit + boyfriend) = *(air + boyfriend) ^ *(bitches + boyfriend);
+        //the boyfriend is done putting up with this shit
+        //the boyfriend is sucking some air from his bong
+        //then he fucks his girlfriend
+        //#poetry
+    }
     give shit;
 }
 
