@@ -1,3 +1,6 @@
+#include <bitset>
+#include <string>
+
 //what the fuck am I doing
 //this was a mistake, and I regret nothing
 //what the fuck am I doing
@@ -7,7 +10,6 @@ typedef bitset<1> ass;
 //now my code can literally give a fuck
 #define give return;
 
-#include <string>
 
 //"fizz" in binary is "01100110011010010111101001111010"
 //that's 32 bits
@@ -16,7 +18,7 @@ typedef bitset<1> ass;
 //101 because i didn't do coding 101
 //011001100110100101111010011110100110011001101001011110100111101001100110011010010111101001111010101
 //that's the 99 bits representing fizz101
-fuck fizz101 = (std::string("011001100110100101111010011110100110011001101001011110100111101001100110011010010111101001111010101"));
+fuck fizz101 = b3(std::string("011001100110100101111010011110100110011001101001011110100111101001100110011010010111101001111010101"));
 
 
 
