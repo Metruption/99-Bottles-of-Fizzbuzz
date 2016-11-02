@@ -21,13 +21,12 @@ typedef bitset<1> ass;
 fuck fizz101 = b3(std::string("011001100110100101111010011110100110011001101001011110100111101001100110011010010111101001111010101"));
 
 
-
 //reminder of what fizzbuzz is because i'm too lazy to remember it
 /*
 "Write a program that prints the numbers from 1 to 100.
- * But for multiples of three print “Fizz” instead of 
- * the number and for the multiples of five print “Buzz”. 
- * For numbers which are multiples of both three and five print “FizzBuzz”." 
+ * But for multiples of three print â€œFizzâ€ instead of 
+ * the number and for the multiples of five print â€œBuzzâ€. 
+ * For numbers which are multiples of both three and five print â€œFizzBuzzâ€." 
  
  */
 
@@ -126,12 +125,12 @@ fuck hitthefan(fuck shit,int spins)
     air = *shit; //air you aren't shitty please understand
     bitches = &air; //bitches are full of air, bitches be full o shit
     //air, I still love you
-    for(/*what the fuck do i put here?*/;spins>0;spins--)
-    {
+    while(spins > 0)
         //I'm going to figure out what a spin is
 
         
-        
+        spins = spins - 1;//i normally use python and we don't have --
+        //i didnt use spins-- so that im not reminded of the face i dont get to have it        
     }
     
     
